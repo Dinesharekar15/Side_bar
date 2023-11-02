@@ -1,0 +1,18 @@
+<li></li> Dashboard</a></li>
+                 <li><a href="#"><i class='bx bx-link'></i>
+                    Shourtcut</a></li>
+                    <li><a href="#"><i class='bx bxs-bar-chart-alt-2' ></i>
+                        Overview</a></li>
+                        <li><a href="#"><i class='bx bxs-calendar-event' ></i>
+                            Event</a></li>
+                            <li><a href="#"><i class='bx bx-question-mark' ></i>
+                                About</a></li>
+                                <li><a href="#"><i class='bxs-dashboard'></i>
+                <li><a href="#"><i class='bx bx-slider'></i>
+                    Services</a></li>
+                <li><a href="#"><i class='bx bx-phone-call'></i>
+                    Contact</a></li>
+                <li><a href="#"><i class='bx bx-chat'></i>
+                    Feedback</a></li>
+                
+             </ul>

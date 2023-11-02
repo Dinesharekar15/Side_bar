@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background:url(keyboard2.avif) right no-repeat; 
+
+}
+.sidebar_menu {
+    position: fixed;
+    height:100vh;
+    width: 280px;
+    /* left: -280px;   */
+    background: rgba(36, 35, 35, 0.1);
+    box-shadow: 0 0 6px rgba(255,255,255,0.1);
+
+}
+.container .sidebar_menu .logo{
+    margin-bottom: 20px;
+    position: absolute; 
+    width: 100%;
+    height: 50px;
+    box-shadow:0 0 6px rgba(255,255,255,0.5) ;
+    
+}
+.sidebar_menu .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-size:30px;
+    font-weight: 500;
+    position: absolute;
+    left: 60px;
+    line-height: 50px;
+}
+ .menu{
+    position:absolute;
+    top: 80px;
+    width: 100%;
+}
+.menu i{
+margin-top: 4px;
+padding-right: 6px;
+}
+
+.menu ul{
+    
+    padding: 0px;
+    list-style: none;
+    
+}
+.menu ul li{
+    margin-top: 6px;
+    padding: 14px 20px;
+    
+    
+}
+.menu ul li:hover{
+   border:1px solid #fff;
+   box-shadow:0 0 4px rgba(255,255,255,0.5) ;
+}
+.menu ul li a{
+    display: flex;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 600;
+}
+.bottom{
+    position: absolute;
+    bottom: 15px;
+    left:50%;
+    transform: translateX(-50%);
+    /* width: 100%; */
+}
+.bottom i{
+    font-size: 22px;
+    padding:0 3px;
+    color: black;
+    opacity: 0.6;
+}
+.bottom i:hover{
+    opacity: 1;
+}
+#cheak{
+    display: none;
+}
+
+
+.btn1 i{
+    font-weight: 700;
+    position: absolute;
+    font-size: 30px;
+    cursor: pointer;
+    left:16px;
+    line-height: 50px;
+    opacity: 1;
+    transition: all 0.3s linear;
+
+}
+.sidebar_menu .btn2 i{
+   position: absolute;
+   left: 240px;
+   line-height: 55px;
+   font-size: 35px;
+   cursor: pointer;
+   opacity: 0;
+   transition: all 0.3s linear;
+}
+.btn2 i:hover{
+    font-size: 29px;
+}
+.btn1 i:hover{
+    font-size: 24px;
+}
+
+#chech:checked ~.sidebar_menu{
+    left: 0px;
+}
+#check:checked~.btn1 i{
+    opacity: 0;
+}
+
+
